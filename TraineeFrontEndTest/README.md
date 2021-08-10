@@ -9,7 +9,7 @@ Teste para a Vaga de Front-End na Interdigitos, Lda.
 ## Instruções:
 
 #### Organização de Projecto:
-* Fazer o __Clone__ deste Repósitório na sua Máquina (Obrigatório)
+* Fazer o __Clone__ do Repositório na sua Máquina (Obrigatório): [Clique aqui para ver o Repositório a Ser Clonado]('https://github.com/euclidesdry/INTERDIGITOS');
 * Organizar a estrutura de pasta do projecto para armazenar os ficheiros HTML, CSS, JavaScript, e caso necessário Plugins (Importante);
 * Manter a designação nominal padronizado na Língua Inglesa (Requisito Não Obrigatório);
 * Manipulação do arquivo `README.md` ao seu gosto (Requisito Não Obrigatório).
