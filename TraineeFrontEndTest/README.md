@@ -36,5 +36,9 @@ Teste para a Vaga de Front-End na Interdigitos, Lda.
 │   ├── Server              # Pasta para simulação de uma API Rest
 └── ...
 ```
+## Duração do Teste
+
+#### Este teste tem a duração de: ####
+ ***3 Horas e 30 minutos***.
 
 ## Tenha uma boa Avaliação!
