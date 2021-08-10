@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "UtilizadorId": 1,
+      "Designacao": "Administrador",
+      "Nome": "Janeth Pires",
+      "NomeUtilizador": "jpires",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 2,
+      "Designacao": "Administrador",
+      "Nome": "Anibal Mateque",
+      "NomeUtilizador": "amateque",
+      "Estado": "Inativo"
+    },
+    {
+      "UtilizadorId": 3,
+      "Designacao": "Utilizador",
+      "Nome": "Antonio Castro",
+      "NomeUtilizador": "acastro",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 4,
+      "Designacao": "Utilizador",
+      "Nome": "António Kalikatula",
+      "NomeUtilizador": "akalikatula",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 5,
+      "Designacao": "Utilizador",
+      "Nome": "António Oliveira",
+      "NomeUtilizador": "aoliveira",
+      "Estado": "Pendente"
+    },
+    {
+      "UtilizadorId": 6,
+      "Designacao": "Utilizador",
+      "Nome": "Bruno Costa",
+      "NomeUtilizador": "bcosta",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 7,
+      "Designacao": "Utilizador",
+      "Nome": "Celmira Soares",
+      "NomeUtilizador": "csoares",
+      "Estado": "Pendente"
+    },
+    {
+      "UtilizadorId": 8,
+      "Designacao": "Utilizador",
+      "Nome": "Domingos Babi",
+      "NomeUtilizador": "dbabi1",
+      "Estado": "Inactivo"
+    },
+    {
+      "UtilizadorId": 9,
+      "Designacao": "Utilizador",
+      "Nome": "Domingos Babi",
+      "NomeUtilizador": "dbabi",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 10,
+      "Designacao": "Utilizador",
+      "Nome": "Filomena Kueseca",
+      "NomeUtilizador": "fkueseca",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 11,
+      "Designacao": "Cliente",
+      "Nome": "Joaquim Januário",
+      "NomeUtilizador": "jjanuario",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 12,
+      "Designacao": "Cliente",
+      "Nome": "Josue Agostinho",
+      "NomeUtilizador": "jagostinho",
+      "Estado": "Inativo"
+    },
+    {
+      "UtilizadorId": 13,
+      "Designacao": "Cliente",
+      "Nome": "Laurinda Quimuanga",
+      "NomeUtilizador": "lquimuanga",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 14,
+      "Designacao": "Cliente",
+      "Nome": "Marillac Domingos",
+      "NomeUtilizador": "mdomingos",
+      "Estado": "Activo"
+    },
+    {
+      "UtilizadorId": 15,
+      "Designacao": "Administrador",
+      "Nome": "Narciso Luquela",
+      "NomeUtilizador": "nluquela",
+      "Estado": "Inativo"
+    },
+    {
+      "UtilizadorId": 16,
+      "Designacao": "Verificador",
+      "Nome": "Teste",
+      "NomeUtilizador": "teste",
+      "Estado": "Inativo"
+    }
+  ]
+}
