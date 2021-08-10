@@ -1,12 +1,12 @@
-# INTERDIGITOS - Trainee Front-End Test.
+# :office: INTERDIGITOS - Trainee Front-End Test.
 Teste para a Vaga de Front-End na Interdigitos, Lda.
 
-## Objectivos:
+## :pushpin: Objectivos:
 * Organização de um Projecto;
 * Conhecimento de Requisições HTTP (AJAX);
 * Manipulação de HTML5, CSS3 & JavaScript.
 
-## Instruções:
+## :page_facing_up: Instruções:
 
 #### Organização de Projecto:
 * Fazer o __Clone__ do Repositório na sua Máquina (Obrigatório): [Clique aqui para ver o Repositório a Ser Clonado](https://github.com/euclidesdry/INTERDIGITOS);
@@ -27,7 +27,7 @@ Teste para a Vaga de Front-End na Interdigitos, Lda.
   * Não é permitido a cópia de um projecto na Web Sem ter sofrido manipulações Por si, com a finalidade de obtênção de ideias;
   * É permitido o uso de Qualquer recurso disponibilizado na Web, desde Assets a Plugins, e se possível, Uso e outra ***API Json***;
 
-## Estrutura de Pastas
+## :file_folder: Estrutura de Pastas
 
 ```bash
 .
@@ -36,9 +36,9 @@ Teste para a Vaga de Front-End na Interdigitos, Lda.
 │   ├── Server              # Pasta para simulação de uma API Rest
 └── ...
 ```
-## Duração do Teste
+:alarm_clock: ## Duração do Teste
 
 #### Este teste tem a duração de: ####
  ***3 Horas e 30 minutos***.
 
-## Tenha uma boa Avaliação!
+## :tada: Tenha uma boa Avaliação! :tada:
