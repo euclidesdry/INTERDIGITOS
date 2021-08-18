@@ -1,3 +1,7 @@
 body .main-container {
     display: flex;
 }
+
+.table {
+    width: 800px;
+}
