@@ -1,35 +1,64 @@
-async function dadosUtilizadores() {
+( function () {
     let tableRowsBoxElement = document.querySelector('#app-users-list');
     let tableRows = '';
-    
-    // Pesquisa da net
-    const response = await fetch('./server/api.json');
-    const { users } = await response.json();
-    let usersCount = users.length;
+    const apiURL = './server/api.json';
 
-    for (let index=0; index <= usersCount; index++) {
-        const user = await users[index];
+    async function getUsers() {
+        // Fetch API
+        // const response = await fetch(apiURL);
+        // const { users } = await response.json();
+        // listUsers(users);
 
-        // const [ UtilizadorId, Designacao, Nome, NomeUtilizador, Estado ] = Object.values(await user);
+        // AXIOS
+        // try {
+        //     const { data } = await axios.get(apiURL);
+        //     const { users } = await data;
 
-        // console.log(user.UtilizadorId)
-        
-        
-        tableRows += `
-            <tr>
-                <td>${user.Designacao}</td>
-                <td>${user.Estado}</td>
-                <td>${user.Nome}</td>
-                <td>${user.NomeUtilizador}</td>
-                <td>${user.UtilizadorId}</td>
-            </tr>
-        `;
+        //     listUsers(users);
+
+        //     console.log('Axios Request: ', data, users);
+        // } catch (error) {
+        //     console.warn('Axios Request Error: ', error);
+        // }
+
+        // JQUERY
+        try {
+            const data = await $.getJSON(apiURL);
+            const { users } = data;
+
+            listUsers(users);
+
+            console.log('jQuery Request: ', data, users);
+        } catch (error) {
+            console.warn('jQuery Request Error: ', error);
+        }
     }
 
-    tableRowsBoxElement.innerHTML = tableRows;
+    const listUsers = async (users) => {
+        let usersCount = await users.length;
 
-    console.log(users)
-    // Fim Pesquisa da net
-}
+        for (let index=0; index < usersCount; index++) {
+            const user = users[index];
 
-dadosUtilizadores();
+            // console.log('--users[index]: ', users[index]);
+
+            const { UtilizadorId, Designacao, Nome, NomeUtilizador, Estado } = user;
+            
+            tableRows += `
+                <tr>
+                    <td>${Designacao}</td>
+                    <td>${Estado}</td>
+                    <td>${Nome}</td>
+                    <td>${NomeUtilizador}</td>
+                    <td>${UtilizadorId}</td>
+                </tr>
+            `;
+        }
+
+        tableRowsBoxElement.innerHTML = tableRows;
+
+        console.log('AJAX HTTP Request Result:', users);
+    }
+
+    getUsers();
+})();
